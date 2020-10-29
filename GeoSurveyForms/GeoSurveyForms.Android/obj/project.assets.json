@@ -2343,11 +2343,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hvoll\\source\\repos\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms.Android\\GeoSurveyForms.Android.csproj",
+      "projectUniqueName": "C:\\Users\\hvoll\\source\\GitHub\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms.Android\\GeoSurveyForms.Android.csproj",
       "projectName": "GeoSurveyForms.Android",
-      "projectPath": "C:\\Users\\hvoll\\source\\repos\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms.Android\\GeoSurveyForms.Android.csproj",
+      "projectPath": "C:\\Users\\hvoll\\source\\GitHub\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms.Android\\GeoSurveyForms.Android.csproj",
       "packagesPath": "C:\\Users\\hvoll\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hvoll\\source\\repos\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms.Android\\obj\\",
+      "outputPath": "C:\\Users\\hvoll\\source\\GitHub\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2369,8 +2369,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\hvoll\\source\\repos\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms.csproj": {
-              "projectPath": "C:\\Users\\hvoll\\source\\repos\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms.csproj"
+            "C:\\Users\\hvoll\\source\\GitHub\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms.csproj": {
+              "projectPath": "C:\\Users\\hvoll\\source\\GitHub\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms.csproj"
             }
           }
         }

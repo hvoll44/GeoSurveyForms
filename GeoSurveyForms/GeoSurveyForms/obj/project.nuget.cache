@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AXkSVisC5Uu1q/mWNO97NEk/T3GK/spavYr80pE8LOVgCayb1dyzDe+JG5211zFVg/04WOgZJyVhx94OB2xByg==",
+  "dgSpecHash": "GzHPo0iKed2T6iaaB9fxiWpI6Pxs1SjuvE9GK8E/a8Ala50cqDoq3veaDU/I5y98Q69RZeulXgEmgiy5Z2+v+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hvoll\\source\\repos\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms.csproj",
+  "projectFilePath": "C:\\Users\\hvoll\\source\\GitHub\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hvoll\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\hvoll\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

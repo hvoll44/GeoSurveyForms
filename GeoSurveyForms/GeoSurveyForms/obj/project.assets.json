@@ -937,11 +937,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hvoll\\source\\repos\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms.csproj",
+      "projectUniqueName": "C:\\Users\\hvoll\\source\\GitHub\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms.csproj",
       "projectName": "GeoSurveyForms",
-      "projectPath": "C:\\Users\\hvoll\\source\\repos\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms.csproj",
+      "projectPath": "C:\\Users\\hvoll\\source\\GitHub\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms.csproj",
       "packagesPath": "C:\\Users\\hvoll\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hvoll\\source\\repos\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms\\obj\\",
+      "outputPath": "C:\\Users\\hvoll\\source\\GitHub\\GeoSurveyForms\\GeoSurveyForms\\GeoSurveyForms\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
