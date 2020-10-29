@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GeoSurveyForms.DailyTasksPage">
+    <ContentPage.Content>
+        <StackLayout Padding="15, 5">
+            <StackLayout Padding="150,0">
+                <Image x:Name="logo" Aspect="AspectFill" />
+            </StackLayout>
+            <BoxView Color="Black" HeightRequest="1" />
+            <Label x:Name="LabelFieldDay" TextColor="#209A5A" FontSize="18" FontAttributes="Bold" HorizontalOptions="Center" />
+            <ListView x:Name="dailyTasksListView" SeparatorColor="Black" ItemSelected="DailyTasksListView_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding TaskId}">
+                            <TextCell.ContextActions>
+                                <MenuItem  Text="Delete" IsDestructive="True" Clicked="DeleteTask_Clicked" CommandParameter="{Binding TaskId}" />
+                            </TextCell.ContextActions>
+                        </TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Text="+Add Task (e.g. DatasetB, 5LineIVS, etc..)" Clicked="AdditionalTaskButton_Clicked"/>
+            <Button Text="Export" Clicked="ExportButton_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

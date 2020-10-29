@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GeoSurveyForms.AdditionalTaskPage"
+             Title="Add Task:">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Dataset" Clicked="AddDatasetButton_Clicked" />
+            <Button Text="QC" Clicked="AddQCButton_Clicked"/>
+            <Button Text="IVS" Clicked="AddIVSButton_Clicked" />
+            <Button Text="IVS 5Line" />
+            <Button Text="GPSQC" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GeoSurveyForms.DatasetPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <TableView>
+                <TableRoot>
+                    <TableSection>
+                        <TextCell x:Name="Project_ID" Text="{Binding PropertyName}" Detail="{Binding PropertyValue}" />
+                        <TextCell x:Name="Date" Text="{Binding PropertyName}" Detail="{Binding PropertyValue}" />
+                        <TextCell x:Name="Team_ID" Text="{Binding PropertyName}" Detail="{Binding PropertyValue}" />
+                        <TextCell x:Name="TeamMembers" Text="{Binding PropertyName}" Detail="{Binding PropertyValue}" />
+                        <TextCell x:Name="Completed_Datasets" Text="{Binding PropertyName}" Detail="{Binding PropertyValue}" />
+                        <TextCell x:Name="Partial_Datasets" Text="{Binding PropertyName}" Detail="{Binding PropertyValue}" />
+                        <TextCell x:Name="Team_Hours" Text="{Binding PropertyName}" Detail="{Binding PropertyValue}" />
+                        <TextCell x:Name="Standby_Time" Text="{Binding PropertyName}" Detail="{Binding PropertyValue}" />
+                        <TextCell x:Name="Comments" Text="{Binding PropertyName}" Detail="{Binding PropertyValue}" />
+                        <TextCell x:Name="Lessons_Learned" Text="{Binding PropertyName}" Detail="{Binding PropertyValue}" />
+                        <TextCell x:Name="Grids_Reacquired" Text="{Binding PropertyName}" Detail="{Binding PropertyValue}" />
+                        <TextCell x:Name="Number_Targets_Reacquired" Text="{Binding PropertyName}" Detail="{Binding PropertyValue}" />
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+            <Button Text="Ok" Clicked="OkButton_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

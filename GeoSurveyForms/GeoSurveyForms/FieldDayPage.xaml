@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GeoSurveyForms.FieldDayPage"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout Padding="5,5">
+        <StackLayout Padding="5,0">
+            <Image x:Name="logo" Aspect="AspectFill" />
+        </StackLayout>
+        <StackLayout Padding="0,0,0,25">
+            <BoxView Color="Black" HeightRequest="1"/>
+        </StackLayout>
+        <Button Text="+New Field Day" TextColor="White" BackgroundColor="#1dabf0" CornerRadius="25" HorizontalOptions="Center" WidthRequest="175" HeightRequest="50" Clicked="NewDay_Clicked" />
+        <Label Text="Daily Forms:" FontAttributes="Bold" FontSize="20" />
+        <ListView x:Name="fieldDayListView" SeparatorColor="Black" ItemTapped="fieldDayListView_ItemTapped" ItemSelected="fieldDayListView_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding .}">
+                        <TextCell.ContextActions>
+                            <MenuItem Text="Delete" IsDestructive="True" Clicked="Delete_Clicked" CommandParameter="{Binding .}" />
+                        </TextCell.ContextActions>                        
+                    </TextCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Label Text="Version: preRelease v1" VerticalOptions="End" HorizontalOptions="Center" />
+    </StackLayout>
+</ContentPage>

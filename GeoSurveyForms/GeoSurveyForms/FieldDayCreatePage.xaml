@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             mc:Ignorable="d"
+             x:Class="GeoSurveyForms.FieldDayCreatePage"
+             Title="Create new field day:">
+    <StackLayout>
+        <TableView Intent="Form">
+            <TableRoot>
+                <TableSection>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Padding="15, 0">
+                            <Label Text="Date" VerticalOptions="Center" />
+                            <DatePicker Date="{x:Static sys:DateTime.Today}" Format="MMM, dd, yyyy" x:Name="DatePicker" />
+                        </StackLayout>
+                    </ViewCell>
+                    <EntryCell Label="Team ID:" x:Name="EntryCellFieldDayTeam" />
+                    <EntryCell Label="Team Members:" x:Name="EntryCellTeamMembers" />
+                    <EntryCell Label="Equipment ID:" x:Name="EntryCellFieldDayEquipment" />
+                    <EntryCell Label="Equipment Type:" x:Name="EntryCellEquipmentType" Text="EM61" />
+                </TableSection>
+            </TableRoot>
+        </TableView>
+        <Button x:Name="CreateNewDayButton" Text="OK" Clicked="CreateNewDayButton_Clicked" />
+        <Button x:Name="CancelButton" Text="Cancel" Clicked="CancelButton_Clicked" />
+    </StackLayout>
+</ContentPage>
