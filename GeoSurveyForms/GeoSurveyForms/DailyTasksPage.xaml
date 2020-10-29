@@ -11,7 +11,7 @@
                 <Image x:Name="logo" Aspect="AspectFill" />
             </StackLayout>
             <BoxView Color="Black" HeightRequest="1" />
-            <Label x:Name="LabelFieldDay" TextColor="#209A5A" FontSize="18" FontAttributes="Bold" HorizontalOptions="Center" />
+            <Label x:Name="LabelFieldDay" TextColor="Black" FontSize="18" FontAttributes="Bold" HorizontalOptions="Center" />
             <ListView x:Name="dailyTasksListView" SeparatorColor="Black" ItemSelected="DailyTasksListView_ItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
@@ -23,7 +23,7 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <Button Text="+Add Task (e.g. DatasetB, 5LineIVS, etc..)" Clicked="AdditionalTaskButton_Clicked"/>
+            <Button Text="Add Task" Clicked="AdditionalTaskButton_Clicked"/>
             <Button Text="Export" Clicked="ExportButton_Clicked" />
         </StackLayout>
     </ContentPage.Content>
